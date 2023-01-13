@@ -1,0 +1,57 @@
+#back{
+    color: rgba(187,163,255,255);
+    background-color: rgb(244, 241, 247);
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    }
+    #ap{
+        background-color: rgba(87,45,206,255);
+        height: 98vh;
+        width: 400px;
+        border-radius: 10px;
+        display: flex;
+        align-items:center;
+        flex-direction: column;
+        gap: 5px;
+        font-family: Arial, Helvetica, sans-serif;
+         }
+    #btn1{
+        color: rgb(106, 5, 249);
+        background-color: rgba(255,209,91,255);
+        border-radius: 3px;
+        padding: 15px;
+        border: none;
+        font-size:large;
+        font-weight: 600;
+        margin-top: 10px;
+        cursor: pointer;
+    }         
+    #btn2{
+        color: white;
+        background-color: rgba(129,98,218,255);
+        border-radius: 3px;
+        padding: 15px;
+        border: none;
+        font-size:large;
+        font-weight: 600;
+        margin-top: 20px;
+        cursor: pointer;
+    }         
+    .heading{
+        font-size: 30px;
+        font-weight: 700;
+    }
+    .from{
+        margin-top: 20px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+        font-size: small;
+    }
+    span{
+        font-weight: 600;
+        font-size: smaller;
+        cursor: pointer;
+    }
